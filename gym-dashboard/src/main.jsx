@@ -1,6 +1,6 @@
 import { HashRouter } from "react-router-dom";
 
-root.render(
+createRoot(document.getElementById("root")).render(
   <HashRouter>
     <App />
   </HashRouter>
